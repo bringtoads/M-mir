@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mímir", "Mímir.csproj", "{BC150EB5-CA26-49C4-882B-99C408DFFF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "..\Library\Library.csproj", "{FB78FA35-E3BD-4307-8FC5-F858B2897E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC150EB5-CA26-49C4-882B-99C408DFFF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC150EB5-CA26-49C4-882B-99C408DFFF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC150EB5-CA26-49C4-882B-99C408DFFF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC150EB5-CA26-49C4-882B-99C408DFFF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB78FA35-E3BD-4307-8FC5-F858B2897E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB78FA35-E3BD-4307-8FC5-F858B2897E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB78FA35-E3BD-4307-8FC5-F858B2897E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB78FA35-E3BD-4307-8FC5-F858B2897E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {648BA718-64FE-46CF-B06A-814FF241C780}
+	EndGlobalSection
+EndGlobal
