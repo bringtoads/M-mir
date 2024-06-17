@@ -19,7 +19,7 @@ using Library.Models;
 using System.Net;
 
 namespace Mímir
-{  //Make sure the Program class is sealed so that nothing can inherit it
+{  
     public sealed class Program
     {
         private static ulong ChannelId = 1241947054348177519;
@@ -117,36 +117,6 @@ namespace Mímir
             }
 
         }
-
-        //private static async Task OnMessageSpecificChannelCreated(DiscordClient sender, MessageCreateEventArgs args)
-        //{
-        //    try
-        //    {
-        //        // Check if the message is from the specific text channel
-        //        if (args.Channel.Id == ChannelId)
-        //        {
-        //            //this is taking the llm message as message and conversing on it's own
-        //            if (!String.IsNullOrEmpty(args.Message.Content))
-        //            {
-        //                string query = args.Message.Content;
-        //                var data = new QueryRequest();
-        //                data.model = "Awanllm-Llama-3-8B-Dolfin";
-        //                var message = new Message();
-        //                message.role = "user";
-        //                message.content = query;
-        //                data.messages.Add(message);
-
-        //                var response = await _apiCall.PostResponseAsync(data);
-        //                // Send the response.Result as a message
-        //                await args.Channel.SendMessageAsync(response.Result);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine(ex.Message);
-        //    }
-        //}
 
 
         private static async Task Client_ModalSubmitted(DiscordClient sender, ModalSubmitEventArgs args)
